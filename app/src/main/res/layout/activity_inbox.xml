@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/inbox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inbox">
+
+    <ImageButton
+        android:id="@+id/btninboxInbox"
+        android:src="@drawable/baseline_inbox_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="43dp"/>
+
+    <ImageButton
+        android:id="@+id/btninboxStore"
+        android:src="@drawable/baseline_store_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="136dp"/>
+
+    <ImageButton
+        android:id="@+id/btninboxNews"
+        android:src="@drawable/baseline_newspaper_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="242dp"/>
+
+    <ImageButton
+        android:id="@+id/btninboxFavorite"
+        android:src="@drawable/baseline_favorite_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="347dp"/>
+
+</RelativeLayout>

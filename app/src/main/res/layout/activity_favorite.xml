@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/favorites"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favorite">
+
+    <ImageButton
+        android:id="@+id/btnfavoriteInbox"
+        android:src="@drawable/baseline_inbox_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="41dp"/>
+
+    <ImageButton
+        android:id="@+id/btnfavoriteStore"
+        android:src="@drawable/baseline_store_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="134dp"/>
+
+    <ImageButton
+        android:id="@+id/btnfavoriteNews"
+        android:src="@drawable/baseline_newspaper_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="240dp"/>
+
+    <ImageButton
+        android:src="@drawable/baseline_favorite_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="344dp"/>
+
+</RelativeLayout>
